@@ -3,7 +3,7 @@ import { Layout } from "../../components/Layout";
 import Head from "next/head";
 import { useTina, tinaField } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import { client } from "../../tina/__generated__/client";
+import { client } from "../../tina/__generated__/databaseClient";
 import moment from 'moment';
 import { TextBox } from "../../components/rich-text/textBox";
 import { TweetEmbed } from "../../components/rich-text/tweet";
@@ -11,7 +11,7 @@ import { PullQuote } from "../../components/rich-text/pullQuote";
 import { CaptionedImage } from "../../components/rich-text/captionedImage";
 import { VideoPlayer } from "../../components/rich-text/videoPlayer";
 
-// adding some components for use in the Rich Text editor and customizing the existing block quote component 
+// adding some components for use in the Rich Text editor and customizing the existing block quote component
 const components = {
   TextBox, TweetEmbed, PullQuote, CaptionedImage, VideoPlayer, blockquote: (props) => {
     return <blockquote className="border-l-4 border-gray-200 dark:border-gray-700 mb-1 leading-8">{props.children}</blockquote>
