@@ -8810,7 +8810,7 @@ tinacms-gitprovider-github@^1.0.3:
     "@octokit/rest" "^19.0.7"
     js-base64 "^3.7.4"
 
-tinacms@1.5.28, tinacms@^1.5.22:
+tinacms@1.5.28, tinacms@^1.5.28:
   version "1.5.28"
   resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.5.28.tgz#fc787d971b83ab24ac1904bcffc72eb766a6a942"
   integrity sha512-z+hMgWB+3YmA17bcq214alt88cR0sgs8leQY8oVYMb74K8zK8SOqGZA1nB4EUtF7gwrdebrRF9ZNpg1QOIJNfQ==
